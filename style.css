@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* colors variables  */
 :root{
     --white:hsl(0, 0%, 100%); /*container background*/
     --Light-gray: hsl(212, 45%, 89%); /*paragraph color*/
@@ -19,6 +20,7 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+/* contain details */
 .contain{
 background-color: var(--white);
 text-align: center;
@@ -45,10 +47,6 @@ p{
     font-family: 'Outfit', sans-serif;
     font-size: .97rem;
 }
-
-
-
-
 
 
 /* .attribution { font-size: 11px; text-align: center; }
